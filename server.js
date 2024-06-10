@@ -37,7 +37,7 @@ app.use('/userexams', userExamsRoute);
 app.use('/mcqs', mcqsRoute); // Use the mcqs route
 app.use('/tutorials', tutorialRoute);
 
-const PORT = process.env.PORT || 5001; // Use environment port or 5001 as default
+const PORT = process.env.PORT || 4000; // Use environment port or 5001 as default
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
